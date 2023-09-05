@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Contrail One', cursive;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #58749F;
+    width: 100%;
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.33);
+}
+
+#logo{
+    display: flex;
+    align-content: flex-end;
+}
+
+#menu-h ul{
+    max-width: 1050px;
+    list-style: none;
+    padding: 0;
+    background-color: #58749F;
+}
+
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a{
+    color: #fff;
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover{
+    background-color: #FDDB00;
+}
+
+main{
+    padding-top: 125px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.33);
+}
+
+#boasvindas{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#estatua{
+    border-radius: 250px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#intro{
+    font-size: 24px;
+    text-align: center;
+    margin-left: 256px;
+    margin-right: 256px;
+    padding-bottom: 100px;
+}
+
+#resumoDeZeus{
+    margin: 100px;
+}
+
+#resumoDeZeus #titulo1{
+    font-display: left;
+}
+
+#resumoDeZeus ul li{
+    padding: 12px;
+    font-size: 24px;
+    list-style: none;
+}
+
+#quemFoiZeus{
+    margin: 100px;
+}
+
+#quemFoiZeus #titulo2{
+    font-display: left;
+}
+
+#quemFoiZeus p{
+    padding: 12px;
+    font-size: 24px;
+}
+
+#personalidade{
+    margin: 100px;
+}
+
+#personalidade #titulo3{
+    font-display: left;
+}
+
+#personalidade p{
+    padding: 12px;
+    font-size: 24px;
+}
+
+#zeusEmDEJ{
+    margin: 100px;
+}
+
+#zeusEmDEJ #titulo4{
+    font-display: left;
+}
+
+#zeusEmDEJ p{
+    padding: 12px;
+    font-size: 24px;
+}
+
+#CDZ{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.33);
+}
+
+#GOW{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.33);
+}
+
+#Disney{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.33);
+}
+
+#recomendacoes{
+    margin: 100px;
+}
+
+#recomendacoes #titulo5{
+    font-display: left;
+}
+
+#recomendacoes h2{
+    padding: 12px;
+    font-size: 24px;
+}
+
+#recomendacoes ul li{
+    padding: 12px;
+    font-size: 24px;
+    list-style: none;
+}
+
+#sobreMim{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: rgb(202, 202, 202);
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.33);
+}
+
+#sobreMim #titulo6{
+    font-display: left;
+    padding: 32px;
+}
+
+#sobreMim p{
+    padding: 32px;
+    font-size: 24px;
+    padding-bottom: 75px;
+}
+
+footer{
+    background-color: #58749F;
+    width: 100%;
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.33);
+}
+
+footer p#creditos{
+    padding: 32px;
+    text-align: center;
+    font-size: large;
+    color: #fff;
+}
